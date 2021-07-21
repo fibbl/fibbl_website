@@ -479,8 +479,25 @@ mark,
 .img-fluid {
   max-width: 100%;
   height: auto;
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
 }
-
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
