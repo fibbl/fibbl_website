@@ -44,6 +44,11 @@ body, p {
 	font: 400 1rem/1.5rem "Open Sans", sans-serif;
 }
 
+.p-large2 {
+	color: #2ede75;
+	font: 400 1rem/1.5rem "Open Sans", sans-serif;
+}
+
 .p-small {
 	color: #777779;
 	font: 400 0.75rem/1.25rem "Open Sans", sans-serif;
