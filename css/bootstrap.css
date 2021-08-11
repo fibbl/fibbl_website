@@ -477,7 +477,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   animation: bounce 1s infinite alternate;
   -webkit-animation: bounce 1s infinite alternate;
