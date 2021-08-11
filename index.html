@@ -35,13 +35,7 @@
 <body data-spy="scroll" data-target=".fixed-top">
     
     <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
-    </div>
+	
     <!-- end of preloader -->
     
 
@@ -124,7 +118,18 @@
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
                         <div class="image-container">
-                           <!-- <img class="img-fluid" src="images/header-iphone25.png" alt="alternative">-->
+                            <div class="spinner-wrapper">
+                                <div class="spinner">
+                                    <div class="bounce1"></div>
+                                    <div class="bounce2"></div>
+                                    <div class="bounce3"></div>
+                                </div>
+                            </div>
+                           <img class="img-fluid" src="images/header-iphone25.png" alt="alternative" style="
+                           padding-left: 0px;
+                           border-left-width: 0px;
+                           margin-left: 25%;
+                       ">
                         </div> <!-- end of image-container -->
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -141,10 +146,9 @@
     <div id="features" class="tabs">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h2>FEATURES</h2>
-                    <div class="p-heading p-large">Leno was designed based on input from personal development coaches and popular trainers so it offers all</div>
-                </div> <!-- end of col -->
+                
+                    <div class="p-heading p-large">India's first climate consious bank !</div>
+                
             </div> <!-- end of row -->
            
 
@@ -162,13 +166,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="images/details-1-iphone.png" alt="alternative">
+                    <img class="img-fluid" src="images/details-1-iphone.gif" alt="alternative">
                 </div> <!-- end of col -->
                 <div class="col-lg-6">
                     <div class="text-container">
-                        <h3>Goals Setting</h3>
-                        <p>Leno can easily help you track your personal development evolution if you take the time to properly setup your goals at the beginning of the training process. Check out the details</p>
-                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">LIGHTBOX</a>
+                        <h3>Plant Trees</h3>
+                        <p>Every purchase you make with the fibbl card, contributes to planting a tree.</p>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#Join_us">Yes, I wanna go Green !</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -185,8 +189,9 @@
                     <div class="col-lg-6">
                         <div class="text-container">
                             <h3>Calendar Input</h3>
-                            <p>The calendar input function enables the user to setup training, meditation and relaxation sessions with ease. Just open the feature and start setting up your time as you desire</p>
-                            <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-2">LIGHTBOX</a>
+
+                            <p>Pool in money. Set your Budget. Any partner can spend with the fibbl card or UPI.</p> <p> Simple right !</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#Join_us">That's awesome !</a>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
@@ -199,8 +204,44 @@
     <!-- end of details 2 -->
 
 
+    <!-- Details 3 -->
+    <div id="details" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/details-1-iphone.gif" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h3>Plant Trees</h3>
+                        <p>Track every penny spent ! Get insights on your spends. and be in control of your finances.</p>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#Join_us">Ohh! I love that!</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 3 -->
+
     <!-- Details Lightboxes -->
 	<!-- Lightbox -->
+    <div id="Join_us" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h3>Plant Trees</h3>
+                        <p>Thanks for the love ! Lets make banking and Earth cleaner in one go!</p>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#Join">Join Fibbl.</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 1 -->
+
+
 	<div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
 		<div class="row">
 			<button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
@@ -210,7 +251,7 @@
 			<div class="col-lg-6">
 				<h3>Goals Setting</h3>
 				<hr>
-                <p>Leno can easily help you track your personal development evolution if you take the time to set it up.</p>
+                <p>Track every penny spent ! Get insights on your spends. and be in control of your finances.</p>
                 <h4>User Feedback</h4>
                 <p>This is a great app which can help you save time and make your live easier. And it will help improve your productivity levels.</p>
                 <p>You should definitely give it a try when you need a good app.</p>
@@ -343,12 +384,14 @@
     <div class="footer">
         <div class="container">
             <div class="row">
+                <!-- 
                 <div class="col-md-4">
                     <div class="footer-col">
                         <h4>About Leno</h4>
                         <p>We're passionate about creating the best mobile apps for personal development</p>
                     </div>
-                </div> <!-- end of col -->
+                
+                
                 <div class="col-md-4">
                     <div class="footer-col middle">
                         <h4>Important Links</h4>
@@ -363,7 +406,7 @@
                             </li>
                         </ul>
                     </div>
-                </div> <!-- end of col -->
+                -->
                 <div class="col-md-4">
                     <div class="footer-col last">
                         <h4>Social Media</h4>
