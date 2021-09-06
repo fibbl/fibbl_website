@@ -637,7 +637,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 110px;
+    width: 100px;
 	
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
