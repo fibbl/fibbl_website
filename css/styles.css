@@ -39,6 +39,8 @@ body, p {
 	font: 400 1.5rem/2rem "Open Sans", sans-serif;
 }
 
+
+
 .p-large {
 	color: #777779;
 	font: 400 1rem/1.5rem "Open Sans", sans-serif;
@@ -67,6 +69,8 @@ body, p {
 	padding-left: 1.25rem;
 }
 
+
+
 h1 {
 	color: #000000;
 	font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
@@ -92,9 +96,12 @@ h5 {
 	font: 700 1.125rem/1.625rem "Montserrat", sans-serif;
 }
 
+
+
 h6 {
-	color: #000000;
-	font: 700 1rem/1.5rem "Montserrat", sans-serif;
+	color: #ffffff; 
+	font: 400 1.5rem/2rem "Open Sans", sans-serif;
+	text-align: center;
 }
 
 a {
