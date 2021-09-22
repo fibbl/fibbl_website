@@ -98,7 +98,7 @@ h5 {
 
 
 
-h6 {
+h7 {
 	color: #ffffff; 
 	font: 400 1.5rem/2rem "Open Sans", sans-serif;
 	text-align: center;
@@ -248,7 +248,7 @@ a.white {
 	position: absolute;
 	top: 0.87rem;
 	left: 1.375rem;
-	color: #777779;
+	color: #ffffff;
 	opacity: 1;
 	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
 	cursor: text;
@@ -279,10 +279,10 @@ a.white {
 	padding-top: 1.0625rem;
 	padding-bottom: 0.0625rem;
 	padding-left: 1.3125rem;
-	border: 1px solid #9791ae;
+	border: 1px solid #ffffff;
 	border-radius: 0.25rem;
-	background-color: #413d52;
-	color: #777779;
+	background-color: #ffffff;
+	color: #070101;
 	font: 400 0.875rem/1.875rem "Open Sans", sans-serif;
 	transition: all 0.2s;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
