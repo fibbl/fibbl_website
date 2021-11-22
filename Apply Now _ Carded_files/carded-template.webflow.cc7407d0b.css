@@ -333,7 +333,7 @@ blockquote {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   border-radius: 4px;
-  background-color: #0b72ff;
+  background-color: #719766;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.03);
   -webkit-transition: border-color 200ms ease, color 200ms ease, box-shadow 200ms ease, background-color 200ms ease;
   transition: border-color 200ms ease, color 200ms ease, box-shadow 200ms ease, background-color 200ms ease;
