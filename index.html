@@ -18,7 +18,7 @@
 		<meta content="The card and the bank that help you with your money and gives you more." property="twitter:description">
 		<meta property="og:type" content="website">
 		<meta content="summary_large_image" name="twitter:card">
-		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta content="Webflow" name="generator">
 		<link href="./Carded - Webflow HTML website template_files/carded-template.webflow.cc7407d0b.css" rel="stylesheet" type="text/css">
 		<script src="./Carded - Webflow HTML website template_files/webfont.js" type="text/javascript"></script>
@@ -220,10 +220,15 @@
 			
 				
 					
-					<img srcset="./Carded - Webflow HTML website template_files/how_mobile.png 1500w, ./Carded - Webflow HTML website template_files/how.png 5256w"
-     sizes="(max-width: 600px) 1500px, 5256px"
-     src="./Carded - Webflow HTML website template_files/how.png"
-     alt="Elva dressed as a fairy">
+			<picture>
+				<source 
+				  media="(min-width: 650px)"
+				  srcset="./Carded - Webflow HTML website template_files/how.png">
+				<source 
+				  media="(min-width: 465px)"
+				  srcset="./Carded - Webflow HTML website template_files/how_mobile.png">
+				
+			  </picture>
 
 					
 					
