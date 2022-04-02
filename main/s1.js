@@ -17950,6 +17950,43 @@ Webflow.require('ix2').init({
             }],
             "createdOn": 1625394645602
         },
+        "e-191": {
+            "id": "e-191",
+            "name": "",
+            "animationType": "custom",
+            "eventTypeId": "SCROLLING_IN_VIEW",
+            "action": {
+                "id": "",
+                "actionTypeId": "GENERAL_CONTINUOUS_ACTION",
+                "config": {
+                    "actionListId": "a-141",
+                    "affectedElements": {},
+                    "duration": 0
+                }
+            },
+            "mediaQueries": ["tiny"],
+            "target": {
+                "id": "60e827d1c5dbf5ada62428f5|c44d1357-3fc3-d6ab-fc0a-f9c705743e49",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            },
+            "targets": [{
+                "id": "60e827d1c5dbf5ada62428f5|c44d1357-3fc3-d6ab-fc0a-f9c705743e49",
+                "appliesTo": "ELEMENT",
+                "styleBlockIds": []
+            }],
+            "config": [{
+                "continuousParameterGroupId": "a-141-p",
+                "smoothing": 50,
+                "startsEntering": true,
+                "addStartOffset": false,
+                "addOffsetValue": 50,
+                "startsExiting": false,
+                "addEndOffset": false,
+                "endOffsetValue": 50
+            }],
+            "createdOn": 1625394645602
+        },
         "e-21": {
             "id": "e-21",
             "name": "",
@@ -21134,6 +21171,57 @@ Webflow.require('ix2').init({
                                 "selectorGuids": ["3e47cc4a-7adb-0f95-f8ea-34d77aa8c4a9"]
                             },
                             "xValue": -66.66666666666667,
+                            "xUnit": "%",
+                            "yUnit": "PX",
+                            "zUnit": "PX"
+                        }
+                    }]
+                }]
+            }],
+            "createdOn": 1625394648902
+        },
+        "a-141": {
+            "id": "a-141",
+            "title": "Side Slides",
+            "continuousParameterGroups": [{
+                "id": "a-141-p",
+                "type": "SCROLL_PROGRESS",
+                "parameterLabel": "Scroll",
+                "continuousActionGroups": [{
+                    "keyframe": 20,
+                    "actionItems": [{
+                        "id": "a-141-n",
+                        "actionTypeId": "TRANSFORM_MOVE",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 500,
+                            "target": {
+                                "useEventTarget": "CHILDREN",
+                                "selector": ".wrap-slide-rail",
+                                "selectorGuids": ["3e47cc4a-7adb-0f95-f8ea-34d77aa8c4a9"]
+                            },
+                            "xValue": 0,
+                            "xUnit": "%",
+                            "yUnit": "PX",
+                            "zUnit": "PX"
+                        }
+                    }]
+                }, {
+                    "keyframe": 80,
+                    "actionItems": [{
+                        "id": "a-141-n-2",
+                        "actionTypeId": "TRANSFORM_MOVE",
+                        "config": {
+                            "delay": 0,
+                            "easing": "",
+                            "duration": 500,
+                            "target": {
+                                "useEventTarget": "CHILDREN",
+                                "selector": ".wrap-slide-rail",
+                                "selectorGuids": ["3e47cc4a-7adb-0f95-f8ea-34d77aa8c4a9"]
+                            },
+                            "xValue": -6,
                             "xUnit": "%",
                             "yUnit": "PX",
                             "zUnit": "PX"

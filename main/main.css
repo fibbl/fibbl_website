@@ -4680,7 +4680,8 @@ a:hover {
 		} */
 	}
 	.wrap-slide-clip {
-		height: 70vh
+		height: 70vh;
+		overflow-x: auto;
 	}
 	.button-footer-author {
 		font-size: 1.3em
