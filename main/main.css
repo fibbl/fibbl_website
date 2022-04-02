@@ -4680,7 +4680,7 @@ a:hover {
 		} */
 	}
 	.wrap-slide-clip {
-		height: 70vh;
+		
 		overflow-x: auto;
 	}
 	.wrap-slide-clip::-webkit-scrollbar { 
