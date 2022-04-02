@@ -21208,7 +21208,7 @@ Webflow.require('ix2').init({
                         }
                     }]
                 }, {
-                    "keyframe": 100,
+                    "keyframe": 95,
                     "actionItems": [{
                         "id": "a-141-n-2",
                         "actionTypeId": "TRANSFORM_MOVE",
@@ -21221,7 +21221,7 @@ Webflow.require('ix2').init({
                                 "selector": ".wrap-slide-rail",
                                 "selectorGuids": ["3e47cc4a-7adb-0f95-f8ea-34d77aa8c4a9"]
                             },
-                            "xValue": -66,
+                            "xValue": -66.6666,
                             "xUnit": "%",
                             "yUnit": "PX",
                             "zUnit": "PX"
