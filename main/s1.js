@@ -17980,10 +17980,10 @@ Webflow.require('ix2').init({
                 "smoothing": 50,
                 "startsEntering": true,
                 "addStartOffset": false,
-                "addOffsetValue": 5,
+                "addOffsetValue": 50,
                 "startsExiting": false,
                 "addEndOffset": false,
-                "endOffsetValue": 5
+                "endOffsetValue": 50
             }],
             "createdOn": 1625394645602
         },
