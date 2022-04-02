@@ -4665,8 +4665,6 @@ a:hover {
 	}
 	.wrap-slide-rail {
 		overflow-x: auto;
-		height: 100%;
-		
 		overflow-y: hidden;
 		scroll-snap-coordinate: 0 0;
 		scroll-snap-points-x: repeat(100%);

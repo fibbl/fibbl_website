@@ -17927,7 +17927,7 @@ Webflow.require('ix2').init({
                     "duration": 0
                 }
             },
-            "mediaQueries": ["main", "medium", "small", "tiny"],
+            "mediaQueries": ["main"],
             "target": {
                 "id": "60e827d1c5dbf5ada62428f5|c44d1357-3fc3-d6ab-fc0a-f9c705743e49",
                 "appliesTo": "ELEMENT",
