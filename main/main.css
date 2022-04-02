@@ -4664,7 +4664,22 @@ a:hover {
 		padding: 4.8em 3.3em
 	}
 	.wrap-slide-rail {
-		height: 100%
+		overflow-x: auto;
+		height: 100%;
+		
+		overflow-y: hidden;
+		scroll-snap-coordinate: 0 0;
+		scroll-snap-points-x: repeat(100%);
+		scroll-snap-type: x mandatory;
+		flex: 1;
+		display:flex;
+		-webkit-overflow-scrolling: touch;
+		/* section {
+			width: 380px;
+			height: 100%;
+			flex:0 0 380px;
+			scroll-snap-align: start;
+		} */
 	}
 	.wrap-slide-clip {
 		height: 70vh
