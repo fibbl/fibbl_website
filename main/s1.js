@@ -17980,10 +17980,10 @@ Webflow.require('ix2').init({
                 "smoothing": 50,
                 "startsEntering": true,
                 "addStartOffset": false,
-                "addOffsetValue": 50,
+                "addOffsetValue": 5,
                 "startsExiting": false,
                 "addEndOffset": false,
-                "endOffsetValue": 50
+                "endOffsetValue": 5
             }],
             "createdOn": 1625394645602
         },
@@ -21195,7 +21195,7 @@ Webflow.require('ix2').init({
                         "config": {
                             "delay": 0,
                             "easing": "",
-                            "duration": 500,
+                            "duration": 5,
                             "target": {
                                 "useEventTarget": "CHILDREN",
                                 "selector": ".wrap-slide-rail",
@@ -21208,20 +21208,20 @@ Webflow.require('ix2').init({
                         }
                     }]
                 }, {
-                    "keyframe": 80,
+                    "keyframe": 100,
                     "actionItems": [{
                         "id": "a-141-n-2",
                         "actionTypeId": "TRANSFORM_MOVE",
                         "config": {
                             "delay": 0,
                             "easing": "",
-                            "duration": 500,
+                            "duration": 1,
                             "target": {
                                 "useEventTarget": "CHILDREN",
                                 "selector": ".wrap-slide-rail",
                                 "selectorGuids": ["3e47cc4a-7adb-0f95-f8ea-34d77aa8c4a9"]
                             },
-                            "xValue": -6,
+                            "xValue": -66,
                             "xUnit": "%",
                             "yUnit": "PX",
                             "zUnit": "PX"
