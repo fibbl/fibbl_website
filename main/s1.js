@@ -21208,7 +21208,7 @@ Webflow.require('ix2').init({
                         }
                     }]
                 }, {
-                    "keyframe": 95,
+                    "keyframe": 85,
                     "actionItems": [{
                         "id": "a-141-n-2",
                         "actionTypeId": "TRANSFORM_MOVE",
